@@ -3,3 +3,4 @@ Pillow
 ultralytics 
 tempf
 opencv-python
+libGL.so.1
