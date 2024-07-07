@@ -70,7 +70,7 @@ if uploaded_image:
 
 # Video upload and processing
 uploaded_video = st.file_uploader("Choose a video...", type=["mp4", "avi", "mov"])
-st.write("Real time processing, you can download the video after it's done ")
+st.write(processingthe video, you can download the video after it's done ")
 if uploaded_video:
     # Save uploaded video to a temporary file
     tfile = tempfile.NamedTemporaryFile(delete=False)
@@ -101,7 +101,7 @@ if uploaded_video:
         out.write(annotated_frame)
 
         # Convert annotated frame back to RGB for displaying in Streamlit(if you want the video to be shown before the download button appears)
-        stframe.image(cv2.cvtColor(annotated_frame, cv2.COLOR_BGR2RGB), use_column_width=True)
+        #stframe.image(cv2.cvtColor(annotated_frame, cv2.COLOR_BGR2RGB), use_column_width=True)
         
     video_cap.release()  # Release the video capture object
     out.release()  # Release the VideoWriter object
