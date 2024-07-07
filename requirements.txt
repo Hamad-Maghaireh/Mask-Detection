@@ -1,3 +1,4 @@
+streamlit
 PIL
 ultralytics 
 random
