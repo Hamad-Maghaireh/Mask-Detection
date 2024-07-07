@@ -70,7 +70,7 @@ if uploaded_image:
 
 # Video upload and processing
 uploaded_video = st.file_uploader("Choose a video...", type=["mp4", "avi", "mov"])
-st.write(processingthe video, you can download the video after it's done ")
+st.write(processingthe video... ")
 if uploaded_video:
     # Save uploaded video to a temporary file
     tfile = tempfile.NamedTemporaryFile(delete=False)
