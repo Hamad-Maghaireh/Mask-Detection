@@ -2,4 +2,4 @@ streamlit
 Pillow
 ultralytics 
 tempf
-cv2
+opencv-pyhton
